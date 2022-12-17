@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopCar.kz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section style="background-image: url(img/3.jpg);
+    overflow: hidden;">
+        <input type="checkbox" id="check" style="display:none;">
+        <header>
+            <h2><a href="#" class=" logo">Logo</a></h2>
+            <div class="navbar" style="margin-left:7%">
+                <a href="home.php">Home</a>
+                <a href="NewCars.html">New Cars</a>
+                <a href="AutoNews.html">AutoNews</a>
+                <a href="AutoCredit.html">Auto credit</a>
+                <a href="SELL.html">Sell u car</a>
+                <a href="registration.php">Register</a>
+                <a href="login.php">Login</a>
+            </div>
+            <label for="check">
+                <div class="container">
+                    <img src="img/car.png" alt="car" style="height:70px;width:70px;border-radius:25%;" class="list">
+                    <img src="img/close.png" alt="close" style="height:70px;width:70px;border-radius:25%;" class="=close">
+                </div>
+            </label>
+        </header>
+        <div class="pool" >
+            <h1>brands</h1>
+            <div class="space" >
+                <label class="container2">
+                    <input type="checkbox" id="my-checkbox" onclick="isChecked()">
+                    <span class="checkmark"></span>
+                    <h2>TOYOTA</h2>
+                    <img src="img/t.jpg" alt="">
+                </label>
+                
+            </div>
+            <div class="space" >
+                <label class="container2">
+                    <input type="checkbox" id="my-checkbox1" onclick="isChecked1()">
+                    <span class="checkmark"></span>
+                    <h2>LEXUS</h2>
+                    <img src="img/lexus.png" alt="">
+                </label>
+            </div>
+            <div class="space" >
+                <label class="container2">
+                    <input type="checkbox" id="my-checkbox2" onclick="isChecked2()">
+                    <span class="checkmark"></span>
+                    <h2>RENAULT</h2>
+                    <img src="img/renault.png" alt="">
+                </label>
+            </div>
+            <div class="space" >
+                <label class="container2">
+                    <input type="checkbox" id="my-checkbox3" onclick="isChecked3()">
+                    <span class="checkmark"></span>
+                    <h2>HONDA</h2>
+                    <img src="img/honda.png" alt="">
+                </label>
+            </div>
+            <div class="space" >
+                <label class="container2">
+                    <input type="checkbox" id="my-checkbox4" onclick="isChecked4()">
+                    <span class="checkmark"></span>
+                    <h2>BMW</h2>
+                    <img src="img/bmw.jpg" alt="">
+                </label>
+            </div>
+        </div>
+        <div class="containers">
+            <div class="dip">
+                <div class="containerf" id="first">
+                    <div class="card">
+                        <img src="img2/camryjpg.jpg" alt="Card Image">
+                        <p>Toyota Camry</p>
+                        <h4>3.4 l,450 h/p, NM</h4>
+                        <p>10 000 $</p>
+                    </div>
+                    <div class="card" >
+                        <img src="img2/toyota-gt86.jpg" alt="Card Image">
+                        <p>Toyota gt86</p>
+                        <h4>4.6 l,450 h/p,tr</h4>
+                        <p>35 000 $</p>
+                    </div>
+                    <div class="card last">
+                        <img src="img2/toyota-prado.jpg" alt="Card Image">
+                        <p>Toyota Prado</p>
+                        <h4>5.2 l,450 h/p, E2</h4>
+                        <p>28 000 $</p>
+                    </div>
+                </div>
+                <div class="containerf" id="second">
+                    <div class="card">
+                        <img src="img2/lexus.jpg" alt="Card Image">
+                        <p>LEXUS RX300</p>
+                        <h4>3.2 l,450 h/p, CF</h4>
+                        <p>30 000 $</p>
+                    </div>
+                    <div class="card" >
+                        <img src="img2/lexus es 350.jpg" alt="Card Image">
+                        <p>LEXUS ES350</p>
+                        <h4>2.8 l,450 h/p, SP</h4>
+                        <p>23 000 $</p>
+                    </div>
+                    <div class="card last">
+                        <img src="img2/lexus570.jpg" alt="Card Image">
+                        <p>LEXUS 570</p>
+                        <h4>4.5 l,450 h/p, A1</h4>
+                        <p>50 000 $</p>
+                    </div>
+                </div>
+                <div class="containerf" id="third">
+                    <div class="card">
+                        <img src="img2/duster.jpg" alt="Card Image">
+                        <p>Renault Duster</p>
+                        <h4>3.3 l,450 h/p, f2</h4>
+                        <p>20 000 $</p>
+                    </div>
+                    <div class="card" >
+                        <img src="img2/Renault-Kaptur.jpg" alt="Card Image">
+                        <p>Renault Kaptur</p>
+                        <h4>3.0 l,450 h/p, f$</h4>
+                        <p>17 000 $</p>
+                    </div>
+                    <div class="card last">
+                        <img src="img2/renault-logan-stepway.jpg" alt="Card Image">
+                        <p>Renault Logan</p>
+                        <h4>1.8 l,450 h/p, f1</h4>
+                        <p>13 000 $</p>
+                    </div>
+                </div>
+                <div class="containerf" id="forth">
+                    <div class="card">
+                        <img src="img2/honda crv.jpg" alt="Card Image">
+                        <p>HONDA CR-V</p>
+                        <h4>2.4 l,450 h/p, hr#</h4>
+                        <p>30 000 $</p>
+                    </div>
+                    <div class="card" >
+                        <img src="img2/honda-civic.jpg" alt="Card Image">
+                        <p>HONDA CIVIC</p>
+                        <h4>2.0 l,450 h/p, hh1</h4>
+                        <p>22 000 $</p>
+                    </div>
+                    <div class="card last">
+                        <img src="img2/honda_accord.jpg" alt="Card Image">
+                        <p>HONDA ACCORD</p>
+                        <h4>2.6 l,450 h/p, s3</h4>
+                        <p>24 000 $</p>
+                    </div>
+                </div>
+                <div class="containerf" id="fifth">
+                    <div class="card">
+                        <img src="img2/bmw-m5.jpg" alt="Card Image">
+                        <p>BMW M5</p>
+                        <h4>3.8 l,450 h/p, mi4s</h4>
+                        <p>34 000 $</p>
+                    </div>
+                    <div class="card" >
+                        <img src="img2/bmw-x5.jpg" alt="Card Image">
+                        <p>BMW X5</p>
+                        <h4>4.2 l,450 h/p, mi7</h4>
+                        <p>42 000 $</p>
+                    </div>
+                    <div class="card last">
+                        <img src="img2/BMW_540.jpg" alt="Card Image">
+                        <p>BMW 540</p>
+                        <h4>3.4 l,450 h/p, mi2</h4>
+                        <p>38 000 $</p>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </div>
+    </section>
+    <footer class="footer"> 
+        <div class="containerr"> 
+            <div class="row"> 
+                <div class="footer-col"> 
+                    <h4>About us</h4> 
+                    <ul> 
+                        <li><a href="">The history of IKEA</a></li> 
+                        <li><a href="">The IKEA way of retail</a></li> 
+                        <li><a href="">Year in review</a></li>  
+                    </ul> 
+                </div> 
+                <div class="footer-col"> 
+                    <h4>Life at home</h4> 
+                    <ul> 
+                        <li><a href="">Our curiosity box</a></li> 
+                        <li><a href="">How we work</a></li> 
+                        <li><a href="">Co-creation</a></li> 
+                    </ul> 
+                </div> 
+                <div class="footer-col"> 
+                    <h4>Behind the scenes</h4> 
+                    <ul> 
+                        <li><a href="">Products and design</a></li> 
+                        <li><a href="">Innovation and technology</a></li> 
+                        <li><a href="">Our commitments</a></li> 
+                    </ul> 
+                </div> 
+                <div class="footer-col"> 
+                    <h4>Sustainability</h4> 
+                    <ul> 
+                        <li><a href="">Healthy and sustainable living</a></li> 
+                        <li><a href="">Recycled polyester</a></li> 
+                        <li><a href="">Transforming into a circular business</a></li> 
+                    </ul> 
+                </div>  
+            </div> 
+        </div> 
+    </footer>
+</body>
+</html>
