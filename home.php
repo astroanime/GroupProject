@@ -227,44 +227,36 @@ if(isset($_POST["submit"])){
             </div>
         </div>
     </div>
-    <footer class="footer"> 
+   <footer class="footer"> 
         <div class="containerr"> 
             <div class="row"> 
                 <div class="footer-col"> 
                     <h4>About us</h4> 
                     <ul> 
-                        <li><a href="">The history of IKEA</a></li> 
-                        <li><a href="">The IKEA way of retail</a></li> 
-                        <li><a href="">Year in review</a></li>  
+                        <li><a href="SELL.html">The TOPCar</a></li> 
+                        <li><a href="#new">OUR Contacts</a></li> 
+                        <li><a href="#information">Services</a></li>  
                     </ul> 
                 </div> 
                 <div class="footer-col"> 
-                    <h4>Life at home</h4> 
+                    <h4>Main Pages</h4> 
                     <ul> 
-                        <li><a href="">Our curiosity box</a></li> 
-                        <li><a href="">How we work</a></li> 
-                        <li><a href="">Co-creation</a></li> 
+                        <li><a href="NewCars.html">New Cars</a></li> 
+                        <li><a href="AutoNews.html">Auto News</a></li> 
+                        <li><a href="#form">Choose your dream Car</a></li> 
                     </ul> 
                 </div> 
                 <div class="footer-col"> 
-                    <h4>Behind the scenes</h4> 
+                    <h4>BE With Us be Top</h4> 
                     <ul> 
-                        <li><a href="">Products and design</a></li> 
-                        <li><a href="">Innovation and technology</a></li> 
-                        <li><a href="">Our commitments</a></li> 
+                        <li><a href="registration.php">Register</a></li> 
+                        <li><a href="login.php">Login</a></li> 
+                        <li><a href="https://go.2gis.com/jqla1a">COme to see us</a></li>
                     </ul> 
                 </div> 
-                <div class="footer-col"> 
-                    <h4>Sustainability</h4> 
-                    <ul> 
-                        <li><a href="">Healthy and sustainable living</a></li> 
-                        <li><a href="">Recycled polyester</a></li> 
-                        <li><a href="">Transforming into a circular business</a></li> 
-                    </ul> 
-                </div>  
             </div> 
         </div> 
-    </footer> 
+    </footer>
     <script>
                     const toTop = document.querySelector(".whatsapp");
 
