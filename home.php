@@ -125,44 +125,44 @@ if(isset($_POST["submit"])){
         <div class="containers" style="margin-left:4%">
             <div class="containerf">
                 <div class="card">
-                    <img src="img/4.jpg" alt="Card Image">
-                    <p>YOUR TEXT HERE</p>
+                    <img src="img/xc90.jpg" alt="Card Image">
+                    <p>VOLVO XC90</p>
                 </div>
                 <div class="card">
-                    <img src="img/4.jpg" alt="Card Image">
-                    <p>YOUR TEXT HERE</p>
+                    <img src="img/s60.jpg" alt="Card Image">
+                    <p>VOLVO S60</p>
                 </div>
             </div>
             <div class="containerf">
                 <div class="card">
-                    <img src="img/4.jpg" alt="Card Image">
-                    <p>YOUR TEXT HERE</p>
+                    <img src="img/golf.jpg" alt="Card Image">
+                    <p>GOLF</p>
                 </div>
                 <div class="card last">
-                    <img src="img/4.jpg" alt="Card Image">
-                    <p>YOUR TEXT HERE</p>
+                    <img src="img/polo.jpg" alt="Card Image">
+                    <p>POLO</p>
                 </div>
             </div>
         </div>
         <div class="containers" style="margin-left:4%">
             <div class="containerf">
                 <div class="card">
-                    <img src="img/4.jpg" alt="Card Image">
-                    <p>YOUR TEXT HERE</p>
+                    <img src="img/juke.jpg" alt="Card Image">
+                    <p>JUKE</p>
                 </div>
                 <div class="card">
-                    <img src="img/4.jpg" alt="Card Image">
-                    <p>YOUR TEXT HERE</p>
+                    <img src="img/Almera.jpg" alt="Card Image">
+                    <p>ALMERA</p>
                 </div>
             </div>
             <div class="containerf">
                 <div class="card">
-                    <img src="img/4.jpg" alt="Card Image">
-                    <p>YOUR TEXT HERE</p>
+                    <img src="img/nexia.jpg" alt="Card Image">
+                    <p>NEXIA</p>
                 </div>
                 <div class="card  last">
-                    <img src="img/4.jpg" alt="Card Image">
-                    <p>YOUR TEXT HERE</p>
+                    <img src="img/matiz.jpg" alt="Card Image">
+                    <p>MATIZ</p>
                 </div>
             </div>
         </div>
